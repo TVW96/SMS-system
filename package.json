@@ -1,0 +1,21 @@
+{
+  "name": "smsnotif",
+  "version": "1.0.0",
+  "description": "SMS notification system application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Troy Washington",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "twilio": "^3.84.0"
+  },
+  "volta": {
+    "//": "⚡⚡ This value exists to support Volta users. To learn more check out: https://volta.sh/ ⚡⚡",
+    "node": "18.11.0",
+    "npm": "8.13.2"
+  }
+}
