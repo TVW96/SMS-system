@@ -5,14 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    
-    "text": "ngrok http 3000"
+    "build": "chmod +x ./bin/ngrok.command",
+    "start": "open ./bin/ngrok.command && node server.js"
   },
   "author": "Troy Washington",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "passport-http-bearer": "^1.0.1",
     "twilio": "^3.84.0"
   },
   "volta": {
@@ -21,4 +23,3 @@
     "npm": "8.13.2"
   }
 }
-
